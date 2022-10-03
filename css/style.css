@@ -141,7 +141,7 @@
 
     /* layout header tablet and smartphone */
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 840px) {
     .container-top {
         padding: 0 1.5rem;
     }
