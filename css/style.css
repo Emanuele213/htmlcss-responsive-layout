@@ -8,7 +8,13 @@
 .html {
     font-family: 'Roboto', sans-serif;
 }
+
+.space {
+    margin: 1.5rem 0;
+}
+
     /* start header */
+
 .back-color-top {
     background-color: #0084fd;
     color: white;
@@ -70,7 +76,7 @@
 
     /* start main */
 
-    /* sezione sfondo bianco */
+    /* sezione sfondo bianco - cards azzurre*/
 
 .main-container {
     max-width: 1200px;
@@ -167,7 +173,7 @@
     flex: 1 1 30%;
 }
 
-    /* sezione sfondo viola */
+    /* sezione sfondo viola - card bianca*/
 
 .main-container-purple {
     margin-top: 5rem;
@@ -210,7 +216,7 @@
     width: 70%;
 }
 
-.main-flex-image {
+.main-container-purple .main-flex-image {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -236,9 +242,52 @@
     border-radius: 2rem;
 }
 
+    /* sezione sfondo bianco - card viola */
+
+.text-center {
+    text-align: center;
+}
+
+.title-purple {
+    color: #9792e4;
+    font-size: 3rem;
+    margin: 1.5rem 0;
+}
+
+.card-purple {
+    display: flex;
+    align-items: center;
+    background-color: #9792e4;
+    border-radius: 2rem;
+    padding: 1.5rem;
+}
+
+.card-purple .main-flex-image {
+    display: flex;
+    flex: 1 1 20%;
+    width: 100%;
+    height: auto;
+}
+
+.card-purple .main-flex-image .flex-img {
+    position: relative;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card-purple .text-color-white {
+    font-size: 1.1rem;
+    color: white;
+    flex: 1 1 80%;
+    padding-left: .5rem;
+}
+
     /* layout header tablet and smartphone */
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 830px) {
     .container-top {
         padding: 0 1.5rem;
     }
@@ -252,7 +301,7 @@
 
     /* layout desktop */
     
-@media screen and (min-width: 830px) {
+@media screen and (min-width: 831px) {
     .hamburger {
         display: none;
     }
@@ -261,7 +310,7 @@
     /* layout main smartphone */
 
 @media screen and (min-width: 320px) and (max-width: 720px) {
-    .main-container-white {
+    .main-container {
         padding-left: 1rem;
     }
 
@@ -296,7 +345,7 @@
      /* layout main tablet */
 
 @media screen and (min-width: 721px) and (max-width: 830px) {
-    .main-container-white {
+    .main-container {
         padding-left: 1rem;
     }
 
