@@ -194,7 +194,7 @@
     justify-content: center;
     flex-wrap: wrap;
     flex: 1 1 50%;
-    margin-top: 20rem;
+    margin-top: 15rem;
     padding: 1rem;
     background-color: white;
     border-radius: 3rem;
@@ -283,6 +283,101 @@
     color: white;
     flex: 1 1 80%;
     padding-left: .5rem;
+}
+
+    /* sfondo viola con 6 cards biache */
+
+.main-container-flex {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.second-cards-white {
+    background-color: white;
+    border-radius: 2rem;
+    padding: 1rem;
+    flex: 1 1 30%;
+}
+
+.second-cards-white h2 {
+    color: #9792e4;
+}
+
+.number-size {
+    color: #9792e4;
+    font-size: 5rem;
+}
+
+.second-cards-white .btn {
+    margin-top: 1rem;
+    background-color: #9792e4;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: .6rem;
+    border: 0;
+    border-radius: 2rem;
+    width: 40%;
+}
+
+.second-cards-white .btn:hover {
+    background-color: purple;
+    cursor: pointer;
+}
+
+    /* sezione testo about */
+
+.main-container-about {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-container-about .title-purple {
+    flex: 1 1 100%;
+}
+
+.middle-text {
+    font-size: 1.4rem;
+    flex: 1 1 80%;
+    padding-right: 6rem;
+}
+
+.main-container-about .main-flex-image-about {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1 1 20%;
+}
+
+.main-flex-image-about {
+    position: relative;
+}
+
+.main-container-about .main-flex-image-about .flex-img {
+    position: relative;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.main-container-about .main-flex-image-about .icon-size {
+    font-size: 5rem;
+    color: #9792e4;
+    position: absolute;
+    top: 0rem;
+    right: -1rem;
+    z-index: 1;
+}
+
+.main-flex-image-about .purple-size {
+    color: #9792e4;
+    font-size: 2rem;
 }
 
     /* layout header tablet and smartphone */
