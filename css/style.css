@@ -8,7 +8,7 @@
 .html {
     font-family: 'Roboto', sans-serif;
 }
-    /* start footer */
+    /* start header */
 .back-color-top {
     background-color: #0084fd;
     color: white;
@@ -64,7 +64,7 @@
     font-size: 2rem;
 }
 
-    /* end footer */
+    /* end header */
 
     /* ------------ */
 
@@ -72,7 +72,7 @@
 
     /* sezione sfondo bianco */
 
-.main-container-white {
+.main-container {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -170,7 +170,70 @@
     /* sezione sfondo viola */
 
 .main-container-purple {
+    margin-top: 5rem;
+    padding: 2rem 0;
+    margin-bottom: 4rem;
+    background-color: #9792e4;
+}
+
+.main-container-purple .main-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.card-white {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 1 1 50%;
+    margin-top: 20rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 3rem;
+}
+
+.card-white h1 {
+    flex: 1 1 100%;
+    text-align: center;
+}
+
+.card-white p {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+}
+
+.main-container-purple .main-container .main-flex-image .flex-img{
+    display: flex;
+    width: 70%;
+}
+
+.main-flex-image {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1 1 100%;
+}
+
+.main-flex-image h1 {
+    color: white;
+    flex: 1 1 100%;
     
+}
+
+.main-flex-image p {
+    color: white;
+    width: 60%;
+}
+
+.card-white .icon-size{
+    font-size: 1rem;
+    color: black;
+    background-color: #9792e4;
+    padding: 1rem;
+    border-radius: 2rem;
 }
 
     /* layout header tablet and smartphone */
