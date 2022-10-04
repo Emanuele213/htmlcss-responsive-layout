@@ -70,6 +70,8 @@
 
     /* start main */
 
+    /* sezione sfondo bianco */
+
 .main-container-white {
     max-width: 1200px;
     margin: 0 auto;
@@ -91,14 +93,31 @@
     margin-right: 1rem;
     border-radius: 1.5rem;
     padding: 1rem;
+    flex: 1 1 63%;
 }
 
-.card .greater {
-    flex: 1 1 70%;
-}
-
-.card  .minor {
+.card-second {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #b5ddff;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    justify-content: center;
     flex: 1 1 30%;
+}
+
+.card-second h1 {
+    color: #0084fd;
+    flex: 1 1 100%;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.card-second p {
+    text-align: center;
+    font-size: 1.2rem;
 }
 
 .card h1 {
@@ -125,19 +144,34 @@
     flex: 0 1 60%;
 }
 
+.card .btn:hover {
+    cursor: pointer;
+    background-color: blue;
+}
+
 .flex-image {
     display: flex;
     flex: 1 1 35%;
+}
+
+.icon-size {
+    font-size: 7rem;
+    color: #0084fd;
 }
 
 .flex-container-cards-down {
     display: flex;
 }
 
-.card .down-cards {
+.card-second .down-cards {
     flex: 1 1 30%;
 }
 
+    /* sezione sfondo viola */
+
+.main-container-purple {
+    
+}
 
     /* layout header tablet and smartphone */
 
@@ -164,6 +198,10 @@
     /* layout main smartphone */
 
 @media screen and (min-width: 320px) and (max-width: 720px) {
+    .main-container-white {
+        padding-left: 1rem;
+    }
+
     .flex-container-cards-top {
         flex-direction: column;
     }
@@ -180,6 +218,7 @@
 
     .card .paragraph .btn {
         margin-top: .5rem;
+        width: 60%;
     }
 
     .flex-image {
@@ -194,6 +233,10 @@
      /* layout main tablet */
 
 @media screen and (min-width: 721px) and (max-width: 830px) {
+    .main-container-white {
+        padding-left: 1rem;
+    }
+
     .card .paragraph {
         flex: 1 1 100%;
     }
