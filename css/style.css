@@ -380,6 +380,50 @@
     font-size: 2rem;
 }
 
+.main-flex-image-about .btn {
+    background-color: #9792e4;
+    color: white;
+    padding: .5rem;
+    border-radius: 1rem;
+    border: none;
+    width: 100%;
+}
+
+    /* parte viola prima del footer */
+
+.main-container-final {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.main-container-final h1 {
+    font-size: 3rem;
+}
+
+.size-gold{
+    font-size: 6rem;
+    color: #fdc15f;
+}
+
+.small-text {
+    font-size: 1.1rem;
+    width: 82%;
+    margin: 0 auto;
+}
+
+.main-container-final .btn{
+    text-decoration: none;
+    background-color: white;
+    color: #9792e4;
+    padding: 1.5rem;
+    border: none;
+    border-radius: 3rem;
+    margin: 1rem 0;
+    width: 40%;
+}
+
     /* layout header tablet and smartphone */
 
 @media screen and (max-width: 830px) {
