@@ -391,6 +391,12 @@
 
     /* parte viola prima del footer */
 
+.main-container-purple-second {
+    margin-top: 5rem;
+    padding: 2rem 0;
+    background-color: #9792e4;
+}
+
 .main-container-final {
     max-width: 600px;
     margin: 0 auto;
@@ -422,6 +428,19 @@
     border-radius: 3rem;
     margin: 1rem 0;
     width: 40%;
+}
+
+    /* footer */
+
+.footer-container-black {
+    background-color: black;
+    color: white;
+    padding: 2rem 0;
+}
+
+.footer-container-black .main-container {
+    max-width: 400px;
+    margin: 0 auto;
 }
 
     /* layout header tablet and smartphone */
@@ -461,6 +480,12 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
+        /* margin-right: 1rem; */
+        border-radius: 1.5rem;
+        padding: 1rem;
+        justify-content: center;
+        flex: 1 1 30%;
+        flex-direction: column;
     }
 
     .card .paragraph {
@@ -479,6 +504,79 @@
     .flex-container-cards-down {
         flex-direction: column;
     }
+
+    .main-container-purple .main-container {
+        flex-direction: column;
+    }
+
+    .main-flex-image h1 {
+        text-align: center
+    }
+
+    .main-container-purple .main-flex-image {
+        justify-content: center;
+    }
+
+    .main-flex-image p {
+        width: 90%;
+    }
+    
+    .card-white {
+        margin-top: 3rem;
+    }
+
+    .card-purple {
+        flex-direction: column;
+    }
+
+    .card-purple .main-flex-image {
+        justify-content: center;
+    }
+
+    .card-purple .text-color-white {
+        text-align: center;
+    }
+
+    .main-container-purple .main-container {
+        padding: 1rem;
+    }
+
+    .second-cards-white {
+        flex: 1 1 61%;
+    }
+
+    .main-container {
+        padding: 1rem;
+    }
+
+    .main-container-purple {
+        margin-top: 5rem;
+        padding: 2rem;
+        margin-bottom: 4rem;
+        background-color: #9792e4;
+    }
+
+    .main-container-about .title-purple {
+        padding: 0 1rem;
+    }
+
+    .middle-text {
+        /* padding-right: 0rem; */
+        padding: 0 1rem;
+    }
+
+    .main-container-about .main-flex-image-about {
+        padding: 0 1rem;
+    }
+
+    .main-flex-image-about .btn {
+        width: 70%;
+    }
+
+    .main-container-about .main-flex-image-about .icon-size {
+        right: 10rem;
+    }
+
 }
 
      /* layout main tablet */
@@ -499,5 +597,54 @@
     .card .btn {
         flex: 0 1 45%;
         margin-top: 1rem;
+    }
+
+    .main-container-purple .main-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .main-container-purple .main-flex-image {
+        justify-content: center
+    }
+
+    .main-flex-image h1 {
+        text-align: center;
+        margin: .5rem 0;
+    }
+
+    .main-flex-image p {
+        width: 90%;
+    }
+
+    .card-white {
+        margin-top: 3rem;
+    }
+
+    .card-white p {
+        text-align: center;
+    }
+
+    .main-container-purple {
+        padding: 2rem 1rem;
+    }
+
+    .second-cards-white {
+        flex: 1 1 40%;
+    }
+
+    .main-container-about .main-flex-image-about .icon-size {
+        top: 3rem;
+        right: 4rem;
+    }
+    
+    .middle-text {
+        flex: 1 1 50%;
+        padding-right: 4rem;
+        padding-left: .5rem;
+    }
+
+    .main-flex-image-about .btn {
+        width: 80%;
     }
 }
